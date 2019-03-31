@@ -18,7 +18,7 @@
    sub $t5,$t2,$t3 
    
    li  $v0,1
-   add $a0,$zero,$t5
+   move $a0,$t5
    syscall 
       
    li  $v0,1

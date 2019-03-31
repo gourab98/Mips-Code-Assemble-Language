@@ -6,5 +6,5 @@
     ldc1 $f0,zerodouble
     
       li    $v0,3
-      #add.d $f12,$f2,$f0
+      add.d $f12,$f2,$f0
       syscall
