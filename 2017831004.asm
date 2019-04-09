@@ -1,6 +1,6 @@
 .data
       char:   .byte 'u'
-      vowels: .asciiz "aeiouuuu"
+      vowels: .asciiz "aeioguuu"
       output: .asciiz "Found "
 .text
 main: 

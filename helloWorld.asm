@@ -1,8 +1,9 @@
 .data
+
    mymessage: .asciiz "Hello World\n"
-   name: .asciiz "Gourab Saha.\n"
-   mychar: .byte 'g'
-   me: .byte 's'
+   name:      .asciiz "Gourab Saha.\n"
+   mychar:    .byte 'g'
+   me:        .byte 's'
    
 .text
    li $v0,4
