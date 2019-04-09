@@ -1,10 +1,10 @@
 .data
-     mess: .asciiz "Give Your age="
-     mess1: .asciiz "\nYour age is ="
+     mess: .asciiz "Give Your age = "
+     mess1: .asciiz "\nYour age is = "
      
-     mess2: .asciiz "\nTell me your name="
+     mess2: .asciiz "\nTell me your name = "
      userinput:  .space 30
-     mess3: .asciiz "Your name is ="
+     mess3: .asciiz "Your name is = "
 .text 
    main:
         li $v0,4
